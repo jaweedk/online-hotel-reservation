@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="css/about.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/fontawesome/css/font-awesome.min.css">
+
+	<title>About us</title>
+</head>
+<body>
+  <header>
+        <div class="content flex_space">
+            <div class="logo">
+                
+            </div>
+            <div class="navlinks">
+                <ul id="menulist">
+                    <li><a href="index.html">home</a></li>
+                    <li ><a href="about.html">About</a></li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                 
+                    <li><i class="fa fa-search"></i></li>
+                    <li><button class="primary-btn">BOOK NOW</button></li>
+                    
+                    
+                </ul>
+                <span class="fa fa-bars" onclick="menutoggle()"></span>
+            </div>
+        </div>
+    </header>
+    <script>
+        var menulist=document.getElementById('menulist');
+        menulist.style.maxHeight="0px";
+
+        function menutoggle(){
+            if(menulist.style.maxHeight=="0px"){
+                menulist.style.maxHeight="100vh";
+            }
+            else{
+                menulist.style.maxHeight="0px";
+            }
+        }
+        </script>
+        <section id="ABOUT">
+     <div class="about-1">
+         <h1> ABOUT US </h1>
+         <P>Established in 2023, Our Companies Main Motto is to provide great offers,  exclusive discounts, and a seamless online booking experience to many of its customers.</P>
+     </div>
+     <div id="about-2">
+     <div class="content-box-lg">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-4">
+                    <div class="about-item text-center">
+                     <i class="fa fa-book"></i>
+                     <h3>MISSION</h3>
+                     <hr>
+                     <p> Our mission is to make it easier for everyone to experience the world.  </p>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                    <div class="about-item text-center">
+                     <i class="fa fa-globe"></i>
+                     <h3>VISION</h3>
+                     <hr>
+                     <p>Our Company guarantees to offer you the best available rates. And with our promise to price match, you can rest assured that you’re always getting a great deal.  </p>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                    <div class="about-item text-center">
+                     <i class="fa fa-pencil"></i>
+                     <h3>GOAL</h3>
+                     <hr>
+                     <p>Our Goal is to make Everyone Feel Home where ever They Go.</p>
+                     </div>
+                  </div>
+              </div>
+            </div>
+         </div>
+      </div>   
+ </section>
+    
+<!--our footer -->
+ 
+<footer class="text-center">
+    <p>Copyright &copy; 2023 All rights reserved by Hotel Reservation Inc.</p>
+</footer>
+
+
+</body>
+</html>
